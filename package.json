@@ -1,0 +1,11 @@
+{
+  "name": "creditlaunch",
+  "version": "1.0.0",
+  "engines": {
+    "node": "0.10.12"
+    , "npm":  "1.2.30"
+  },
+  "dependencies": {
+    "jsdom": "0.10.3"
+  }
+}
