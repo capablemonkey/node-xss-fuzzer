@@ -8,7 +8,7 @@ function index(req, res) {
 	  "http://www.google.com/",
 	  ["http://code.jquery.com/jquery.js"],
 	  function (errors, window) {
-	    console.log(window.$("form")[0].action);
+	    window.$("form");
 	  }
 	);
 
@@ -17,4 +17,4 @@ function index(req, res) {
 
 server = http.createServer(index);
 
-server.listen(80);
+server.listen(3000);
